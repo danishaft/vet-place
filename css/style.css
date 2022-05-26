@@ -3,6 +3,14 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	width: 100%;
+}
+
 .hero-item {
 	height: 100vh;
 	min-height: 500px;
@@ -46,16 +54,31 @@
 
 @media (max-width: 426px){
 	.carousel-caption {
-		bottom: 300px;
+		bottom: 100px;
 	}
 	.carousel-caption h5 {
-		padding-top: 20px;
-		font-size: 39px;
+		top: 50px;
+		font-size: 38px;
 	}
 
 	.carousel-caption p{
 		width: 100%;
-		font-size: 13px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 769px){
+	.carousel-caption {
+		bottom: 300px;
+	}
+	.carousel-caption h5 {
+		padding-top: 20px;
+		font-size: 35px;
+	}
+
+	.carousel-caption p{
+		width: 100%;
+		font-size: 12px;
 	}
 }
 
